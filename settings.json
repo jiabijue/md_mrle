@@ -1,0 +1,80 @@
+{
+  "lstm": {
+    "model": {
+      "type": "lstm",
+      "hidden_size": 100,
+      "num_layers": 4,
+      "dropout": 0,
+      "bidirectional": true
+    },
+    "batch_size": 32,
+    "lr": 0.001,
+    "n_epochs": 40
+  },
+  "gru": {
+    "model": {
+      "type": "gru",
+      "hidden_size": 100,
+      "num_layers": 4,
+      "dropout": 0,
+      "bidirectional": true
+    },
+    "batch_size": 16,
+    "lr": 0.001,
+    "n_epochs": 40
+  },
+  "cnn-gru": {
+    "model": {
+      "type": "cldnn",
+      "n_filters": [64, 128, 256],
+      "kernel_sizes": [3, 3, 3],
+      "strides": [2, 2, 2],
+      "rnn_hid_size": 50,
+      "rnn_n_layers": 2,
+      "dropout": 0,
+      "bidirectional": true
+    },
+    "batch_size": 8,
+    "lr": 0.001,
+    "n_epochs": 40
+  },
+  "hedln-lstm": {
+    "model": {
+      "type": "hedln",
+      "hidden_size": 100,
+      "num_layers": 5,
+      "dropout": 0,
+      "bidirectional": true
+    },
+    "batch_size": 32,
+    "lr": 0.001,
+    "n_epochs": 90
+  },
+  "hedln-r": {
+    "model": {
+      "type": "hedln_r",
+      "hidden_size": 100,
+      "num_layers": 4,
+      "dropout": 0,
+      "bidirectional": true
+    },
+    "batch_size": 32,
+    "lr": 0.0001,
+    "n_epochs": 100
+  },
+  "hedln-cr": {
+    "model": {
+      "type": "hedln_cr",
+      "n_filters": [64, 128, 256],
+      "kernel_sizes": [3, 3, 3],
+      "strides": [2, 2, 2],
+      "rnn_hid_size": 50,
+      "rnn_n_layers": 2,
+      "dropout": 0,
+      "bidirectional": true
+    },
+    "batch_size": 8,
+    "lr": 0.0001,
+    "n_epochs": 40
+  }
+}
