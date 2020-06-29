@@ -1,9 +1,4 @@
-# Music Detection
-Python framework for Music Detection using PyTorch. 
-(including 2 tasks: task1-Music Detection, task2-Music Relative Loudness Estimation).
-
-## Description
-
+# Music Detection and Music Relative Loudness Estimation
 
 ## Requirements
 - `PyTorch` for the deep learning implementations.
@@ -14,4 +9,4 @@ Python framework for Music Detection using PyTorch.
 - `pandas`
 
 ## Data
-OpenBMAT dataset
+OpenBMAT dataset ([link](https://zenodo.org/record/3381249 "OpenBMAT"))
