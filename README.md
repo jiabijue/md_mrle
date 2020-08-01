@@ -10,3 +10,5 @@
 
 ## Data
 OpenBMAT dataset ([link](https://zenodo.org/record/3381249 "OpenBMAT"))
+
+In the earliest version of our paper, we call our model HEDLN. It is substituted by HRIN in the newest manuscript. However, we haven't changed the abbreviation in the code, so don't get confused.   
