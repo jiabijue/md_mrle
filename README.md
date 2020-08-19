@@ -1,5 +1,8 @@
 # Music Detection and Music Relative Loudness Estimation
 
+Implementation of *Hierarchical Regulated Iterative Network for Joint Task of Music Detection and Music Relative Loudness Estimation* ([paper](http://)).
+(Revision under review)
+
 ## Requirements
 - `PyTorch` for the deep learning implementations.
 - `librosa` for the pre-processing of the audio ([link](https://github.com/librosa/librosa "librosa")).
